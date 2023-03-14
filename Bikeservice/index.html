@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/home.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://kit.fontawesome.com/3b2d85abf3.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3b2d85abf3.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/home.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+
+    <link rel="icon" href="img/logo.png">
+    <title>Bike Service</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: rgb(12 16 33); color: aliceblue;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Bootstrap" width="50" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation" style="background-color: #ff7a00;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" onclick="list_collapse()">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#SERVICES">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#MEMBER">Member</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ABOUT">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#CONTACT">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" style="justify-content: center;">
+                    <button class="btn btn-outline-success" type="button" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Book now</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- poster -->
+    <div class="banner-container poster">
+        <h1 class="pb-3" style="color: #ffc107;"><b>BIKE SERVICE</b></h1>
+        <p style="color: #ece9e6;">An online bike service website, from which you can get service for your bike which
+            will be served in your location.</p>
+        <form class="d-flex" style="justify-content: center;">
+            <button class="btn btn-outline-success" type="button" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">Book now</button>
+        </form>
+        <div id="SERVICES"></div>
+    </div>
+
+
+    <!-- Services -->
+    <div id="SERVICES">
+        <div class="page-container container-fluid" style="border:none red;">
+            <h2 class="pb-3 pt-3" style="color: #ffc107; text-align: center;"><b>SERVICES</b></h2>
+            <div class="container text-center" style="border:none rgb(50, 205, 33);">
+                <div class="row" style="border:none rgb(51, 22, 219);">
+                    <div class="col" style="border:none rgb(216, 136, 17);">
+                        <div class="card">
+                            <i class="fa-solid  fa-5x fa-screwdriver-wrench pt-3" style="color: #ffc107;"></i>
+                            <div class="card-body">
+                                <h5>General Repairs</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" style="border:none rgb(216, 136, 17);">
+                        <div class="card">
+                            <i class="fa-solid  fa-5x fa-car-battery pt-3" style="color: #ffc107;"></i>
+                            <div class="card-body">
+                                <h5>Batteries</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" style="border:none rgb(216, 136, 17);">
+                        <div class="card">
+                            <i class="fa-solid  fa-5x fa-searchengin pt-3" style="color: #ffc107;"></i>
+                            <div class="card-body">
+                                <h5>Engine Repair</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" style="border:none rgb(216, 136, 17);">
+                        <div class="card">
+                            <i class="fa-solid  fa-5x fa-hands-bubbles pt-3" style="color: #ffc107;"></i>
+                            <div class="card-body">
+                                <h5>Bike Wash</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+
+
+                <div class="row" style="border:none rgb(51, 22, 219);">
+                    <div class="col" style="border:none rgb(216, 136, 17);">
+                        <div class="card">
+                            <i class="fa-solid  fa-5x fa-person-biking pt-3" style="color: #ffc107;"></i>
+                            <div class="card-body">
+                                <h5>RSA Services</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" style="border:none rgb(216, 136, 17);">
+                        <div class="card">
+                            <i class="fa-solid  fa-5x fa-dharmachakra pt-3" style="color: #ffc107;"></i>
+                            <div class="card-body">
+                                <h5>Spare Parts</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" style="border:none rgb(216, 136, 17);">
+                        <div class="card">
+                            <i class="fa-solid  fa-5x fa-gear pt-3" style="color: #ffc107;"></i>
+                            <div class="card-body">
+                                <h5>Custom Repairs</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" style="border:none rgb(216, 136, 17);">
+                        <div class="card">
+                            <i class="fa-solid  fa-5x fa-gas-pump pt-3" style="color: #ffc107;"></i>
+                            <div class="card-body">
+                                <h5>Petrol</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div><br>
+
+    <!-- member -->
+    <div id="MEMBER">
+        <div class="container-fluid" style="background-image:  linear-gradient(#ff7a00,#ffc107);">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <h1 style="color: white;"><b>Join and become a member of Bike service</b></h1>
+                        <h4>Steps To Partner with Apna Mechanic</h4>
+                        <b>Step 1:</b> Fill the form and you will be contact.<br>
+                        <b>Step 2:</b> Signup in Bike service website.<br>
+                        <b>Step 3:</b> Continue to work.<br>
+                    </div>
+                    <div class="col-12 col-md-4">
+
+                        <form id="signup-form" class="form" role="form" method="post" action="api/signup_submit.php">
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control" name="full_name" placeholder="Full Name"
+                                    maxlength="30" required="">
+                            </div>
+
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control" name="phone" placeholder="Phone Number"
+                                    maxlength="10" minlength="10" required="">
+                            </div>
+
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                </div>
+                                <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                            </div>
+
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fa-solid fa-briefcase"></i>
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control" name="college_name" placeholder="Workshope Name"
+                                    maxlength="150" required="">
+                            </div>
+
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fa-solid fa-city"></i>
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control" name="city_name"
+                                    placeholder="Workshope city name" maxlength="150" required="">
+                            </div>
+
+                            <div class="form-group" style="display: flex; justify-content:center ;">
+                                <button type="submit" class="btn btn-outline-success">Apply Now</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+
+    </div>
+
+    <!-- About -->
+    <div id="ABOUT">
+        <div class="container-fluid" id="ABOUT">
+            <h2 class="pb-3 pt-3" style="color: #ffc107; text-align: center;"><b>ABOUT</b></h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col" style="text-align: center;">
+                        <h3 style="color: #ff7a00;">About Bike Service</h3>
+                        <p>An online bike service website, from which you can get service for your bike which will be
+                            serve.d in your location.<br>
+                            The main objective of this Bike Service is to give service like bike wash,engine,repair
+                            etc.<br>
+                            It will be very much helpful when someone bike gets some problem and there is no service
+                            center near by then the person can get service.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+    <!-- CUSTOMER FEEDBACK -->
+    <div class="container-fluid" style="background-image:  linear-gradient(#ff7a00,#ffc107);">
+        <div class="container">
+            <h2 class="pb-3 pt-3" style="color: white; text-align: center;"><b>CUSTOMER FEEDBACK</b></h2>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card feedback-card">
+                            <i class="fa-solid fa-3x fa-circle-user pt-3 icon" style="color: white;"></i>
+                            <div class="card-body feedback-body">
+                                <h5 style="color: white">Anupam lugun</h5>
+                                <p>I was looking for Mechanic Bike service but found Bike service. Nothing is important
+                                    than time, and this bike service app worked for me as a time savior, as I don't have
+                                    to spend my whole precious weekend for bike servicing anymore because of its pickup
+                                    & drop services.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card feedback-card">
+                            <i class="fa-solid fa-3x fa-circle-user pt-3  icon" style="color: white;"></i>
+                            <div class="card-body feedback-body">
+                                <h5 style="color: white">Anupam lugun</h5>
+                                <p>I was looking for Mechanic Bike service but found Bike service. Nothing is important
+                                    than time, and this bike service app worked for me as a time savior, as I don't have
+                                    to spend my whole precious weekend for bike servicing anymore because of its pickup
+                                    & drop services.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card feedback-card">
+                            <i class="fa-solid fa-3x fa-circle-user pt-3  icon" style="color: white;"></i>
+                            <div class="card-body feedback-body">
+                                <h5 style="color: white">Anupam lugun</h5>
+                                <p>I was looking for Mechanic Bike service but found Bike service. Nothing is important
+                                    than time, and this bike service app worked for me as a time savior, as I don't have
+                                    to spend my whole precious weekend for bike servicing anymore because of its pickup
+                                    & drop services.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div><br>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form id="signup-form" class="form" role="form" method="post" action="api/signup_submit.php">
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control" name="full_name" placeholder="Full Name" maxlength="30"
+                            required="">
+                    </div>
+
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fas fa-phone-alt"></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control" name="phone" placeholder="Phone Number" maxlength="10"
+                            minlength="10" required="">
+                    </div>
+
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                        </div>
+                        <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                    </div>
+
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control" name="college_name" placeholder="Workshope Name"
+                            maxlength="150" required="">
+                    </div>
+
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fa-solid fa-city"></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control" name="city_name" placeholder="Workshope city name"
+                            maxlength="150" required="">
+                    </div>
+
+                    <div class="form-group" style="display: flex; justify-content:center ;">
+                        <button type="submit" class="btn btn-outline-success">Apply Now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="container-fluid " id="CONTACT" style="background-color:  rgb(12 16 33); color: aliceblue;">
+        <h2 class="pb-3 pt-3" style="color: white; text-align: center;"><b>CONTACT US</b></h2>
+        <div class="footer">
+            <div class="page-container footer-container">
+                <div class="footer-contact">
+                    <div class="footer-details">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+916207456054">+916207456054</a>
+                    </div>
+                    <div class="footer-details">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:anupamlugun04@gmail.com">Bikeservice@gmail.com</a>
+                    </div>
+                    <div class="footer-details">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <a href=" https://wa.me/9523140061">Chat with us</a>
+                    </div>
+                    <div class="footer-details">
+                        <i class="fa-brands fa-facebook"></i>
+                        <a href="#">Bike Service</a>
+                    </div>
+                </div>
+                <div class="footer-copyright">© 2023 Copyright Bike Service </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
